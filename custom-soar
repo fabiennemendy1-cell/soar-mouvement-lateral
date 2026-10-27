@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/soc/soar
+exec /usr/bin/python3 collector_opencanary.py
