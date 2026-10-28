@@ -18,20 +18,15 @@
 
 </group>
 
-
-
 <group name="opencanary,honeypot,">
 
   <rule id="100100" level="10">
-
     <decoded_as>json</decoded_as>
-
     <field name="node_id">^opencanary</field>
-
     <description>OpenCanary: activite suspecte detectee sur le honeypot (mouvement lateral potentiel)</description>
-
     <group>opencanary_alert,</group>
-
   </rule>
 
 </group>
+
+
